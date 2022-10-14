@@ -72,6 +72,8 @@ nav a{
     color: white;
     text-decoration: none;
     padding: .6em;
+    transition-duration: .6s;
+    border-radius: 6px;
 }
 
 nav a:hover{
@@ -111,6 +113,16 @@ main p{
     margin-bottom: 12px;
 }
 
+main a{
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bold;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
 main picture{
     display: block;
     text-align: center;
@@ -137,6 +149,10 @@ main section > aside > h3{
     background-color: var(--cor4);
     border-radius: 8px 8px 0px 0px;
 
+}
+
+main section > aside >  p > a{
+    color: white;
 }
 
 main section > aside > ul{
