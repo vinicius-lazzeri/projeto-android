@@ -113,8 +113,7 @@ main p{
 
 main picture{
     display: block;
-    max-width: min-content;
-    margin: 0px auto;
+    text-align: center;
 }
 
 main div > article > img{
